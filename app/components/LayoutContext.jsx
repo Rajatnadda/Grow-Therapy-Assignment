@@ -1,0 +1,23 @@
+"use client";
+
+import { createContext, useContext, useState } from "react";
+
+const LayoutContext = createContext();
+
+export function LayoutProvider({ children }) {
+  const [hideLayout, setHideLayout] = useState(false);
+
+  return (
+    <LayoutContext.Provider value={{ hideLayout, setHideLayout }}>
+      {children}
+    </LayoutContext.Provider>
+  );
+}
+
+export function useLayout() {
+  const context = useContext(LayoutContext);
+  if (!context) {
+    throw new Error("useLayout must be used within LayoutProvider");
+  }
+  return context;
+}
