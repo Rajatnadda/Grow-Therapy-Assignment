@@ -2,7 +2,7 @@
 
 A modern, high-performance web application showcasing the professional profile of Dr. Maya Reynolds. Built with **Next.js**, **React**, and **Tailwind CSS**, this project features smooth interactive elements and a premium aesthetic.
 
-## ✨ Key Features
+##  Key Features
 
 - **Interactive UI**: Engaging user experience with smooth scroll animations.
 - **Modern Animations**: Powered by `framer-motion` for a premium feel.
@@ -10,7 +10,7 @@ A modern, high-performance web application showcasing the professional profile o
 - **Personalized Content**: Detailed sections for Dr. Maya Reynolds' bio, services, and contact information.
 - **Modern Tech Stack**: Leveraging the latest versions of Next.js and React.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
 - **Library**: [React 19](https://reactjs.org/)
@@ -18,7 +18,7 @@ A modern, high-performance web application showcasing the professional profile o
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Typography**: Geist Sans & Poppins
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 my-app/
@@ -33,7 +33,7 @@ my-app/
 └── ...configs            # Next.js, Tailwind, and ESLint configurations
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -64,17 +64,11 @@ my-app/
 4. **Open the app**:
    Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📝 Scripts
+##  Scripts
 
 - `npm run dev`: Starts the development server.
 - `npm run build`: Builds the application for production.
 - `npm run start`: Starts the production server.
 - `npm run lint`: Runs ESLint for code quality checks.
-
-## 🌐 Deployment
-
-The easiest way to deploy this project is via the [Vercel Platform](https://vercel.com/new).
-
----
 
 _This project was completed as an assignment for Grow Therapy._
