@@ -16,7 +16,6 @@ A modern, high-performance web application showcasing the professional profile o
 - **Library**: [React 19](https://reactjs.org/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Typography**: Geist Sans & Poppins
 
 ##  Project Structure
 
